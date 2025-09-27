@@ -20,8 +20,7 @@ It fetches real-time weather data using the **WeatherAPI** and displays current 
 ## 🖼️ Screenshots  
 
 ### 🌤️ Home Page  
-![Weather App Screenshot](screenshot.png)  
-*(Add your screenshot here)*  
+![Weather App Screenshot](screenshot.png) 
 
 ---
 
