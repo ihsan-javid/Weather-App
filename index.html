@@ -1,0 +1,232 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+
+      <!-- Remix icons -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+      <p>Fetching weather...</p>
+    </div>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <h1 class="city-name">
+            New York
+          </h1>
+          <form action="#" id="form">
+            <input autocomplete="off" type="text" placeholder="Enter city name" id="inp">
+          </form>
+        <div class="date">
+          <p>
+          June 20, 2024
+          </p>
+        </div>
+        </div>
+        <div class="weather-info">
+          <div class="top-row">
+            <div class="left-side">
+              <div class="left-side-content">
+                <div class="row1">
+                  <div class="temp">
+                    <p>25</p>
+                    <span class="deg">&#176;</span>
+                  </div>
+                  <div class="wind-moisture">
+                    <div class="wind">
+                      <span><i class="ri-windy-line"></i></span>
+                      <p>10 kph</p>
+                    </div>
+                    <div class="moisture">
+                      <span><i class="ri-contrast-drop-2-line"></i></span>
+                      <p>78 %</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row2">
+                  <div class="weather-type">
+                    <p>Sunny</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-side">
+              <div class="weakly-forecast">
+                <div class="weakly-card">
+                  <p class="day">Today</p>
+                  <div class="temp">
+                    <p>20</p>
+                    <span>&deg;</span>
+                  </div>
+                  <p class="weather-type">
+                    Cloudy
+                  </p>
+                </div>
+                <div class="weakly-card">
+                  <p class="day">Today</p>
+                  <div class="temp">
+                    <p>20</p>
+                    <span>&deg;</span>
+                  </div>
+                  <p class="weather-type">
+                    Cloudy
+                  </p>
+                </div>
+                <div class="weakly-card">
+                  <p class="day">Today</p>
+                  <div class="temp">
+                    <p>20</p>
+                    <span>&deg;</span>
+                  </div>
+                  <p class="weather-type">
+                    Cloudy
+                  </p>
+                </div>
+                <div class="weakly-card">
+                  <p class="day">Today</p>
+                  <div class="temp">
+                    <p>20</p>
+                    <span>&deg;</span>
+                  </div>
+                  <p class="weather-type">
+                    Cloudy
+                  </p>
+                </div>
+                <div class="weakly-card">
+                  <p class="day">Today</p>
+                  <div class="temp">
+                    <p>20</p>
+                    <span>&deg;</span>
+                  </div>
+                  <p class="weather-type">
+                    Cloudy
+                  </p>
+                </div>
+                <div class="weakly-card">
+                  <p class="day">Today</p>
+                  <div class="temp">
+                    <p>20</p>
+                    <span>&deg;</span>
+                  </div>
+                  <p class="weather-type">
+                    Cloudy
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="right-side">
+            <div id="greeting">
+              <h2>Good Morning</h2>
+            </div>
+            <div class="time">
+              <p>
+                10:30 AM
+              </p>
+            </div>
+            <div class="right-side-weather">
+              <div class="row1">
+                <div class="temp-cont">
+                  <div class="temp">
+                    <p>25</p>
+                    <span>&deg;</span>
+                  </div>
+                  <div class="wind-moisture">
+                    <div class="wind">
+                      <span><i class="ri-windy-line"></i></span>
+                      <p>10 kph</p>
+                    </div>
+                    <div class="moisture">
+                      <span><i class="ri-contrast-drop-2-line"></i></span>
+                      <p>78 %</p>
+                    </div>
+                  </div>
+                </div>
+              <div class="row2">
+                <div class="feels-like">
+                  <p>Feels like</p>
+                  <span>27&deg;</span>
+                </div>
+                <div class="weather-type">
+                  <p>Sunny</p>
+                </div>
+              </div>
+              <div class="row3">
+                <h4>Hourly Forecast</h4>
+                <div class="card-container">
+                  <div class="forecast-card">
+                    <p class="time">1 pm</p>
+                    <div class="temp">
+                      <p>26</p>
+                      <span>&deg;</span>
+                    </div>
+                    <p class="weather-type">Cloudy</p>
+                  </div>
+                  <div class="forecast-card">
+                    <p class="time">1 pm</p>
+                    <div class="temp">
+                      <p>26</p>
+                      <span>&deg;</span>
+                    </div>
+                    <p class="weather-type">Cloudy</p>
+                  </div>
+                  <div class="forecast-card">
+                    <p class="time">1 pm</p>
+                    <div class="temp">
+                      <p>26</p>
+                      <span>&deg;</span>
+                    </div>
+                    <p class="weather-type">Cloudy</p>
+                  </div>
+                  <div class="forecast-card">
+                    <p class="time">1 pm</p>
+                    <div class="temp">
+                      <p>26</p>
+                      <span>&deg;</span>
+                    </div>
+                    <p class="weather-type">Cloudy</p>
+                  </div>
+                  <div class="forecast-card">
+                    <p class="time">1 pm</p>
+                    <div class="temp">
+                      <p>26</p>
+                      <span>&deg;</span>
+                    </div>
+                    <p class="weather-type">Cloudy</p>
+                  </div>
+                  <div class="forecast-card">
+                    <p class="time">1 pm</p>
+                    <div class="temp">
+                      <p>26</p>
+                      <span>&deg;</span>
+                    </div>
+                    <p class="weather-type">Cloudy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+
+
+    <script src="script.js"></script>
+  </body>
+  </html>
